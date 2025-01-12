@@ -1,22 +1,22 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
     <PropertyGroup>
         <OutputType>Library</OutputType>
-        <TargetFramework>net7.0</TargetFramework>
+        <TargetFrameworks>netcoreapp3.1;net5.0;net6.0;net7.0</TargetFrameworks>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <RootNamespace>TinyRadius.NET</RootNamespace>
+        <LangVersion>default</LangVersion>
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Proxy" />
+        <Folder Include="Proxy" />
     </ItemGroup>
-    
+
     <ItemGroup>
-        <None Include="bin\Debug\net7.0\CustomDictionary" />
+        <!-- Dosyaların hedef framework'e göre doğru şekilde işlenmesi -->
+        <None Include="bin\$(Configuration)\$(TargetFramework)\CustomDictionary" />
         <None Include="Resource\DefaultDictionary">
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </None>
     </ItemGroup>
-
 </Project>

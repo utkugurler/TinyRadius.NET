@@ -166,15 +166,18 @@ namespace TinyRadius.NET.Utils
 
         protected byte[] MakeDatagramPacket(RadiusPacket packet)
         {
-            using var memoryStream = new MemoryStream();
-            packet.EncodeRequestPacket(memoryStream, sharedSecret);
-            return memoryStream.ToArray();
+            using (var memoryStream = new MemoryStream())
+            {
+                packet.EncodeRequestPacket(memoryStream, sharedSecret);
+                return memoryStream.ToArray();
+            }
+
         }
 
         protected RadiusPacket MakeRadiusPacket(byte[] packet, RadiusPacket request)
         {
-            using var inStream = new MemoryStream(packet);
-            return RadiusPacket.DecodeResponsePacket(inStream, sharedSecret, request);
+            using(var inStream = new MemoryStream(packet))
+                return RadiusPacket.DecodeResponsePacket(inStream, sharedSecret, request);
         }
 
         private static int ValidatePort(int port)

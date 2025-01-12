@@ -1,26 +1,29 @@
 using System.Text;
 
-namespace TinyRadius.NET.Attribute;
-
-public class StringAttribute : RadiusAttribute
+namespace TinyRadius.NET.Attribute
 {
-    public StringAttribute() : base() { }
-
-    public StringAttribute(int type, string value)
+    public class StringAttribute : RadiusAttribute
     {
-        SetAttributeType(type);
-        SetAttributeValue(value);
-    }
+        public StringAttribute() : base() { }
 
-    public override string GetAttributeValue()
-    {
-        return Encoding.UTF8.GetString(GetAttributeData());
-    }
+        public StringAttribute(int type, string value)
+        {
+            SetAttributeType(type);
+            SetAttributeValue(value);
+        }
 
-    public void SetAttributeValue(string value)
-    {
-        if (value == null)
-            throw new ArgumentNullException(nameof(value), "string value not set");
-        SetAttributeData(Encoding.UTF8.GetBytes(value));
+        public override string GetAttributeValue()
+        {
+            return Encoding.UTF8.GetString(GetAttributeData());
+        }
+
+        public void SetAttributeValue(string value)
+        {
+            if (value == null)
+                throw new ArgumentNullException(nameof(value), "string value not set");
+            SetAttributeData(Encoding.UTF8.GetBytes(value));
+        }
     }
 }
+
+

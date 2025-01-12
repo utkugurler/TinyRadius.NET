@@ -7,8 +7,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45537e14-c5b6-4cc4-a343-4a77de8cc167" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="45537e14-c5b6-4cc4-a343-4a77de8cc167" name="Changes" comment="Added development files">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RadiusNet/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RadiusNet/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Attribute/IntegerAttribute.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Attribute/IntegerAttribute.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Attribute/IpAttribute.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Attribute/IpAttribute.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Attribute/Ipv6Attribute.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Attribute/Ipv6Attribute.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Attribute/Ipv6PrefixAttribute.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Attribute/Ipv6PrefixAttribute.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Attribute/RadiusAttribute.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Attribute/RadiusAttribute.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Attribute/StringAttribute.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Attribute/StringAttribute.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Attribute/VendorSpecificAttribute.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Attribute/VendorSpecificAttribute.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dictionary/AttributeType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dictionary/AttributeType.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dictionary/DictionaryParser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dictionary/DictionaryParser.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dictionary/IDictionary.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dictionary/IDictionary.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dictionary/IWritableDictionary.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dictionary/IWritableDictionary.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dictionary/MemoryDictionary.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dictionary/MemoryDictionary.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packets/AccessRequest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Packets/AccessRequest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packets/AccountingRequest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Packets/AccountingRequest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packets/CoaRequest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Packets/CoaRequest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packets/RadiusPacket.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Packets/RadiusPacket.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TinyRadius.NET.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TinyRadius.NET.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utils/RadiusClient.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/RadiusClient.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utils/RadiusEndpoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/RadiusEndpoint.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utils/RadiusException.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/RadiusException.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utils/RadiusUtil.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/RadiusUtil.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,11 +74,11 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "SolutionBuilderGeneralOptionsPage",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="9bc4b93e-6aa5-4f32-9f29-d7d57584011d">
+  <component name="RunManager" selected=".NET Project.TinyRadius.NET">
     <configuration name="TinyRadius.NET" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -85,8 +106,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1736718564183</updated>
-      <workItem from="1736718565345" duration="633000" />
+      <workItem from="1736718565345" duration="2735000" />
     </task>
+    <task id="LOCAL-00001" summary="Added development files">
+      <option name="closed" value="true" />
+      <created>1736719394268</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1736719394268</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,5 +137,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Added development files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added development files" />
   </component>
 </project>
