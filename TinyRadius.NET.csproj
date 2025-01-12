@@ -13,7 +13,6 @@
     </ItemGroup>
 
     <ItemGroup>
-        <!-- Dosyaların hedef framework'e göre doğru şekilde işlenmesi -->
         <None Include="bin\$(Configuration)\$(TargetFramework)\CustomDictionary" />
         <None Include="Resource\DefaultDictionary">
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
