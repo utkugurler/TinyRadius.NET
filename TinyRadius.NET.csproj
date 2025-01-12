@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Library</OutputType>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>TinyRadius.NET</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="Proxy" />
+    </ItemGroup>
+    
+    <ItemGroup>
+        <None Include="bin\Debug\net7.0\CustomDictionary" />
+        <None Include="Resource\DefaultDictionary">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+    </ItemGroup>
+
+</Project>
